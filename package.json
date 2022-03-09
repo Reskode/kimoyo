@@ -1,0 +1,27 @@
+{
+  "name": "api-reservation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "_start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lonie-collab/api-res_source.git"
+  },
+  "author": "rbatoulime@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lonie-collab/api-res_source/issues"
+  },
+  "homepage": "https://github.com/lonie-collab/api-res_source#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0"
+  }
+}
