@@ -1,2 +1,4 @@
 # npm packages will be available on prod-
 node_modules
+
+.env
